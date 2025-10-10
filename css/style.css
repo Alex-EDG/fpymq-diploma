@@ -1086,7 +1086,7 @@ img:after {
 
   .trends-item-wrp:nth-child(odd) {
     width: calc(50% - 4px);    
-    margin-right: 4;
+    margin-right: 4px;
   }
 
   .trends-item-wrp:nth-child(even) {    
