@@ -96,8 +96,8 @@ img:after {
 .container {  
   width: 75%;
   max-width: 1200px;  
-  padding-left: 1.0%;
-  padding-right: 0.85%;  
+  padding-left: 0.96%;
+  padding-right: 0.84%;  
   margin: 0 auto;
 }
 
@@ -123,7 +123,7 @@ img:after {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
 }
 
 .nav-list .list-item {
@@ -142,8 +142,7 @@ img:after {
 }
 
 .item-link:hover, .item-link:focus {
-  outline: none;
-  font-weight: 600;
+  outline: none;  
   text-decoration: underline;
 }
 
@@ -217,7 +216,7 @@ img:after {
 }
 
 .question-select:focus, .question-select:hover {
-  border-bottom: 1px solid #f4f7f6;
+  border: 1px solid #b9a464;
 }
 
 .form-hint {
@@ -268,7 +267,7 @@ img:after {
 }
 
 .form-textarea:hover, .form-textarea:focus {
-  border-bottom: 1px solid #f4f7f6;
+  border: 1px solid #b9a464;
 }
 
 .send-button {
@@ -278,16 +277,13 @@ img:after {
   font-weight: bold;
   color: white;
   text-transform: uppercase;
-  background-color: #b59f5b;
-  border-top: 1px solid #e6dfc8;
-  border-left: 1px solid #fbf9f5;
-  border-bottom: 1px solid #b59f5b;
-  border-right: 1px solid #b59f5b;
+  background-color: #b59f5b;  
+  border: 1px solid #b59f5b;
 }
 
-.send-button:focus, .send-button:hover {
-  border-top: 1px solid #b9b29b;
-  border-left: 1px solid #efeeea;
+.send-button:focus, .send-button:hover {  
+  border: 1px solid #323232;
+  background-color: #323232;
 }
 
 .popup-close {
@@ -334,7 +330,7 @@ img:after {
   align-items: flex-end;
   width: calc(25% - 4px);
   flex-grow: 1;
-  padding: 7.44% 23.5px 15px;
+  padding: 8.25% 22px 18px;
   margin-right: 4px;
   background-color: #1c2141;
   position: relative;
@@ -380,14 +376,14 @@ img:after {
 
 .trends-item {
   width: 100%;
-  padding: 35px 45px 35px 30px;
+  padding: 29px 45px 27px 33px;
   border: solid 3px rgba(181, 159, 91, 0.6);
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .tags-item {
@@ -402,17 +398,16 @@ img:after {
   font-size: 14px;
   color: #b59f5b;  
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: uppercase;  
 }
 
 .tags-item-link:hover, .tags-item-link:focus {
   outline: none;  
-  font-weight: 600;
   text-decoration: underline;
 }
 
 .trends-title {
-  line-height: 1.12;  
+  line-height: 1.08;  
 }
 
 .trends-title-link {
@@ -429,7 +424,7 @@ img:after {
 
 /* стили для container (main и aside) */
 .container.main-aside {
-  margin-top: 64px;
+  margin-top: 62px;
   display: flex;
 }
 
@@ -441,7 +436,7 @@ img:after {
 
 .article-main {
   display: flex;
-  margin-bottom: 53px;
+  margin-bottom: 55px;
 }
 
 .article-main:last-child {
@@ -458,11 +453,11 @@ img:after {
 }
 
 .article-content {
-  display: inline-block;
+  display: inline-block;  
 }
 
 .article-content .tags {  
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .tags .list-item {
@@ -474,15 +469,15 @@ img:after {
 }
 
 .article-main-title {
-  margin-bottom: 10px;  
+  margin: 0px 0px 20px 0px;
+  line-height: 1.08;
 }
 
 .article-main-title-link {
   font-size: 20px;
   color: #0f0d0e;
   font-weight: bold;
-  text-transform: uppercase;
-  line-height: 0.3;
+  text-transform: uppercase;  
 }
 
 .article-main-title-link:hover, .article-main-title-link:focus {
@@ -491,7 +486,7 @@ img:after {
 }
 
 .date-and-autor {
-  margin-bottom: 45px;
+  margin-bottom: 46px;
 }
 
 .date {
@@ -512,8 +507,7 @@ img:after {
 .article-text {
   font-size: 15px;
   line-height: 1.46;
-  color: #0f0d0e;
-  margin-bottom: 20px;
+  color: #0f0d0e; 
 }
 
 /* стили для aside */
@@ -535,14 +529,14 @@ img:after {
   display: block;
   width: 68px;
   height: 3px;
-  margin: 10px auto 25px auto;
+  margin: 10px auto 24px auto;
   background-color: #b59f5b;
   opacity: 0.4;
 }
 
 .article-new-posts {
   display: flex;
-  margin-bottom: 16px;  
+  margin-bottom: 18px;  
 }
 
 .article-new-posts-img-container {  
@@ -575,7 +569,7 @@ img:after {
 
 /* стили для формы поиска */
 .form-search-container {
-  margin-top: 60px;
+  margin-top: 55px;
 }
 
 .form-search {
@@ -597,7 +591,7 @@ img:after {
 }
 
 .input-search:hover, .input-search:focus {
-  border-bottom: 1px solid #ebe7d7;
+  border: 1px solid #b59f5b;
 }
 
 .button-search {
@@ -609,7 +603,8 @@ img:after {
 }
 
 .button-search:hover, .button-search:focus {
-  border-bottom: 1px solid #ebe7d7;  
+  background: #323232 url("../svg/search.svg") no-repeat center;
+  background-size: 18px;
 }
 
 /* стили для формы подписки */
@@ -631,16 +626,13 @@ img:after {
 }
 
 .input-mailing:hover, .input-mailing:focus {
-  border-bottom: 1px solid #ebe7d7;
+  border: 1px solid #b59f5b;
 }
 
 .button-mailing {
   width: 100%;
-  height: 48px;
-  border-top: 1px solid #e6dfc8;
-  border-left: 1px solid #fbf9f5;
-  border-bottom: 1px solid #b59f5b;
-  border-right: 1px solid #b59f5b;
+  height: 48px; 
+  border: 1px solid #b59f5b;
   background: #b59f5b;
   font-size: 14px;
   color: #ffffff;
@@ -649,13 +641,13 @@ img:after {
 }
 
 .button-mailing:hover, .button-mailing:focus {
-  border-top: 1px solid #b9b29b;
-  border-left: 1px solid #efeeea;
+  border-top: 1px solid #bbbbbb;  
+  background: #323232;
 }
 
 /* стили для раздела Теги */
 .tags-container {
-  margin-top: 50px;
+  margin-top: 55px;
 }
 
 .tags-list-container {
@@ -670,22 +662,21 @@ img:after {
 
 .tags-list-container .tags-item-link {
   display: block;
-  padding: 7px 11px;
+  padding: 5px 13px;
   border: 3px solid #eeeeee;
   font-size: 12px;
-  color: #0f0d0e;
-  font-weight: 200;
+  color: #0f0d0e;  
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .tags-item-link:hover, .tags-item-link:focus {  
-  font-weight: 600;  
+  border-color: #b59f5b;  
 }
 
 /* стили для раздела Темы */
 .topics-container {
-  margin-top: 55px;
+  margin-top: 52px;
 }
 
 .topics-container .aside-titles::after {
@@ -717,7 +708,7 @@ img:after {
 
 /* стили для блока Shop */
 .shop {
-  margin-top: 65px;
+  margin-top: 52px;
 }
 
 .products-list {
@@ -802,27 +793,23 @@ img:after {
 
 .btn-link {
   display: inline-block;
-  padding: 20px 30px;
+  padding: 15px 28px;
   font-size: 14px;
   font-weight: bold;
   color: white;
   text-transform: uppercase;
-  background-color: #b59f5b;
-  border-top: 1px solid #e6dfc8;
-  border-left: 1px solid #fbf9f5;
-  border-bottom: 1px solid #b59f5b;
-  border-right: 1px solid #b59f5b;
+  background-color: #b59f5b;  
+  border: 1px solid #b59f5b;  
 }
 
 .btn-link:hover, .btn-link:focus { 
-  border-top: 1px solid #b9b29b;
-  border-left: 1px solid #efeeea;
+  border-top: 1px solid #bbbbbb;  
+  background: #323232;
 }
 
 /* стили для footer */
 .page-footer {
-  margin-top: 65px;
-  padding-bottom: 45px;
+  margin-top: 68px;  
 }
 
 .footer-container {
@@ -869,7 +856,8 @@ img:after {
 
 .copyrights-container {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 75px;
+  margin-bottom: 5px;
 }
 
 .copyrights-link {
@@ -878,10 +866,14 @@ img:after {
   color: #bebebe;
 }
 
-/*-------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
 
 /*гамбургер-меню для Tablet и Mobile*/
 @media screen and (max-width: 1199px) {
+  .nav-list {
+    display: none;
+  }
+  
   .menu-burger {
     display: block;
     width: 1.25em;
@@ -930,13 +922,6 @@ img:after {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  /*стили для Shop*/
-  .product-img-wrp {
-    max-width: 300px; /*только для desctop, чтобы на других девайсах красиво резинилось*/
-  }
-}
-
 @media screen and (orientation: landscape), screen and (min-width: 641px) and (max-width: 1199px) {
   /* стили для header */
   .page-header {
@@ -952,11 +937,7 @@ img:after {
 
   .logo-img {
     width: 160px;
-  }
-
-  .nav-list {
-    display: none;
-  }
+  }  
 
   .header-title {
     width: 100%;
@@ -993,7 +974,7 @@ img:after {
     content: "";
     display: block;
     margin-top: 10px;
-    margin-bottom: 31px;
+    margin-bottom: 40px;
     width: 100%;
     height: 3px;
     background-color: rgba(238, 238, 238, 1.0);
@@ -1001,16 +982,16 @@ img:after {
   
   .article-main-title {
   line-height: 1.0;
-  margin-bottom: 25px;
-  letter-spacing: -0.005em; 
+  margin-bottom: 30px;  
   }
   
   .article-text {
-    margin-bottom: 15px;   
+    margin-bottom: 10px;
+    line-height: 1.32;
   }
   
   .article-content .tags {
-    margin-bottom: 0px;   
+    margin-bottom: 0px;
   }
 
   .article-main-title-link {    
@@ -1036,7 +1017,7 @@ img:after {
   }
     
   .form-mailing-container {
-    margin-top: 50px;
+    margin-top: 58px;
   }
   
   .tags-container {
@@ -1046,11 +1027,7 @@ img:after {
   .aside-titles::after {
     margin-bottom: 22px;
   }
-  
-  .topics-container {
-    margin-top: 45px;
-  }
-  
+    
   /* стили для Trends */
   .trends {
     margin-top: 50px;
@@ -1069,19 +1046,22 @@ img:after {
   }
     
   .trends-item {    
-    width: 100%;
-    padding: 18px 60px 30px 30px;
+    padding: 29px 45px 27px 30px;
+  }
+  
+  .trends-title {
+    line-height: 1.0;
   }
 
   .trends-title-link {
-    font-size: 17px;
-    line-height: normal;
+    font-size: 17px;        
   }
 
   .trends-item-wrp {
     width: calc(50% - 4px);
-    height: 32.1vw;    
+    height: 32.1vw;
     margin-bottom: 4px;
+    padding: 9.75% 20px 15px;
   }
 
   .trends-item-wrp:nth-child(odd) {
@@ -1092,6 +1072,15 @@ img:after {
   .trends-item-wrp:nth-child(even) {    
     width: calc(50% - 4px);    
     margin-right: 0;
+  }
+  
+  .tags .tags-item-link:hover, .tags .tags-item-link:focus {
+  outline: none;  
+  text-decoration: underline;
+  }
+  
+  .article-new-posts-title-link {    
+    line-height: 1.26;
   }
 
   /*стили для Shop*/  
@@ -1190,15 +1179,11 @@ img:after {
   }
   
   .question-select:focus, .question-select:hover {
-  border-right: 1px solid #e6e3d2;
-  border-bottom: 1px solid #e6e3d2;
-  border-left: 1px solid #e6e3d2;
+  border: 1px solid #e6e3d2;
   }
   
   .form-textarea:hover, .form-textarea:focus {
-  border-right: 1px solid #e6e3d2;
-  border-bottom: 1px solid #e6e3d2;
-  border-left: 1px solid #e6e3d2;
+  border: 1px solid #e6e3d2;  
   }
   
   /* стили для Trends */
@@ -1215,12 +1200,16 @@ img:after {
   }
 
   .trends-item {
-    padding: 0px 30px 28px 20px;
+    padding: 0px 30px 30px 20px;
+  }
+  
+  .tags {    
+    margin-bottom: 4px;
   }
 
   .trends-title {
     font-size: 17px;
-    line-height: 1.12;
+    line-height: 1.16;
   }
   
   .trends-title-link {
@@ -1229,14 +1218,14 @@ img:after {
 
   .trends-item-wrp {    
     width: 100%;
-    max-height: 64.2vw;
+    height: 64.2vw;
     margin-right: 0;
     margin-bottom: 3px;
-    padding: 25% 15px 15px;    
+    padding: 19% 15px 15px;    
   }
   
   .trends .tags {
-    padding-top: 35px;
+    padding-top: 30px;
   }  
 
   /*стили для main и aside*/
@@ -1247,6 +1236,7 @@ img:after {
 
   .container.main-aside {
     margin-top: 40px;
+    margin-bottom: 5px;
     display: block;
   }
 
@@ -1270,8 +1260,8 @@ img:after {
     background-color: rgba(238, 238, 238, 1.0);
   }
 
-  .article-img-container {
-    margin-bottom: 5px;
+  .article-img-container {    
+    margin-bottom: 3px;
     margin-right: 0;
   }
 
@@ -1284,9 +1274,9 @@ img:after {
   }
 
   .article-main-title {
-    margin: 7px 0px 14px 0px;    
+    margin: 10px 0px 15px 0px;    
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.16;
   }
 
   .article-main-title-link {
@@ -1302,25 +1292,28 @@ img:after {
   }
   
   .article-text {    
-    line-height: 1.28;
+    line-height: 1.32;
     letter-spacing: -0.03em;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
    /* стили для Aside */
   .container-aside {
-    margin-top: 0px;
+    margin-top: 40px;
     width: 100%;
   }
  
   .aside-titles {
-  font-size: 16px;
-  line-height: 1.85;  
+  font-size: 16px;  
   }
-  
+     
   .article-new-posts {
     margin-bottom: 17px;
   }
+  
+  .article-new-posts-title-link {    
+    line-height: 1.26;    
+  }  
   
   /*стили для Search*/
   .form-search-container {
@@ -1329,7 +1322,7 @@ img:after {
   
   /*стили для Mailing*/
   .form-mailing-container {
-    margin-top: 35px;
+    margin-top: 45px;
   }
     
   .input-mailing {
@@ -1338,17 +1331,17 @@ img:after {
   
    /*стили для Tags*/
   .tags-container {
-    margin-top: 33px;
+    margin-top: 38px;
   }
   
   .tags-list-container .tags-item-link {    
-    padding: 4px 12px;    
+    padding: 5px 12px;    
     font-weight: 700;
   }
   
   /*стили для Topics*/
   .topics-container {
-    margin-top: 26px;
+    margin-top: 35px;
     margin-bottom: 48px;
   }
   
@@ -1358,17 +1351,17 @@ img:after {
   }
   
   .product-img-wrp {    
-    margin-top: 2px;
+    margin-top: 3px;
   }
 
   .product-wrp {
     width: 100%;
-    margin-bottom: 25px;   
+    margin-bottom: 19px;   
   }
   
   .product-text {
     flex-grow: 1;
-    padding: 45px 20px 25px 20px;
+    padding: 48px 20px 25px 20px;
     margin-top: -37px;
     border: 3px solid rgba(181, 159, 91, 0.7);
   }
