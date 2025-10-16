@@ -215,8 +215,9 @@ img:after {
   background-size: 8px;
 }
 
-.question-select:focus, .question-select:hover {
+.question-select:focus {
   border: 1px solid #b9a464;
+  outline:  none;
 }
 
 .form-hint {
@@ -266,8 +267,9 @@ img:after {
   border: none;
 }
 
-.form-textarea:hover, .form-textarea:focus {
+.form-textarea:focus {
   border: 1px solid #b9a464;
+  outline:  none;
 }
 
 .send-button {
@@ -590,8 +592,9 @@ img:after {
   background-color: #f4f7f6;
 }
 
-.input-search:hover, .input-search:focus {
+.input-search:focus {
   border: 1px solid #b59f5b;
+  outline:  none;
 }
 
 .button-search {
@@ -625,8 +628,9 @@ img:after {
   -moz-appearance: none;
 }
 
-.input-mailing:hover, .input-mailing:focus {
+.input-mailing:active, .input-mailing:focus {
   border: 1px solid #b59f5b;
+  outline:  none;
 }
 
 .button-mailing {
@@ -922,7 +926,7 @@ img:after {
   }
 }
 
-@media screen and (orientation: landscape), screen and (min-width: 641px) and (max-width: 1199px) {
+@media screen and (orientation: portrait) and (min-width: 641px) and (max-width: 1199px) {
   /* стили для header */
   .page-header {
     padding: 40px 0 105px;
