@@ -451,7 +451,8 @@ img:after {
 
 .article-img {
 /* чтобы получить заявленные в макете 380px */
-  width: 23vw;
+  width: 22.892vw;
+  max-width: 380px;
 }
 
 .article-content {
